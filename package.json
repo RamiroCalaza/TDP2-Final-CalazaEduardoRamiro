@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/osvaldo-ojeda/jueves-ya-tp2-a.git"
+    "url": "git+https://github.com/RamiroCalaza/TDP2-Final-CalazaEduardoRamiro.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/osvaldo-ojeda/jueves-ya-tp2-a/issues"
+    "url": "https://github.com/RamiroCalaza/TDP2-Final-CalazaEduardoRamiro/issues"
   },
-  "homepage": "https://github.com/osvaldo-ojeda/jueves-ya-tp2-a#readme"
+  "homepage": "https://github.com/RamiroCalaza/TDP2-Final-CalazaEduardoRamiro#readme"
 }
