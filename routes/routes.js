@@ -1,10 +1,9 @@
 import { Router } from "express";
-import controller from "../Container/Container.js"
+import controller from "../Container/Container.js";
 
-const routes= Router()
+const routes = Router();
 
-routes.get("/",controller.getAll)
+routes.post("/lecturas", controller.registrarLectura);
+routes.get("/sensores", controller.getAll);
 
-export default routes
-
-
+export default routes;
