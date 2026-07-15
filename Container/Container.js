@@ -1,6 +1,6 @@
 import Controller from "../Controlller/Controller.js";
 import Service from "../Services/Sevice.js";
-import SensoresDAO from "../DAO/SensoresDAO.js";
+import SensoresDAO from "../Dao/SensoresDao.js";
 
 const sensoresDAO = new SensoresDAO();
 const service = new Service(sensoresDAO);

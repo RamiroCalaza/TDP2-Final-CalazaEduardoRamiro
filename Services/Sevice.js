@@ -4,7 +4,14 @@ class Service {
   }
 
   getAll = async () => {
-    return await this.sensoresDAO.listar();
+    const sensores = await this.sensoresDAO.listar();
+
+    return sensores.map(({ id, tipo, valor, timestamp }) => ({
+      id,
+      tipo,
+      valor,
+      timestamp,
+    }));
   };
 
   registrarLectura = async (lectura) => {
